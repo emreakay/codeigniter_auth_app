@@ -7777,3 +7777,134 @@ DEBUG - 2015-02-17 05:17:09 --> File loaded: application/views/forms/login_start
 DEBUG - 2015-02-17 05:17:09 --> File loaded: application/views/templates/footer.php
 DEBUG - 2015-02-17 05:17:09 --> Final output sent to browser
 DEBUG - 2015-02-17 05:17:09 --> Total execution time: 0.0720
+DEBUG - 2015-02-17 10:34:30 --> Config Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Hooks Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Utf8 Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> UTF-8 Support Enabled
+DEBUG - 2015-02-17 10:34:30 --> URI Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Router Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> No URI present. Default controller set.
+DEBUG - 2015-02-17 10:34:30 --> Output Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Security Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Input Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-17 10:34:30 --> Language Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Loader Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Config file loaded: application/config/asset.php
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: asset_helper
+DEBUG - 2015-02-17 10:34:30 --> Database Driver Class Initialized
+ERROR - 2015-02-17 10:34:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/phpframe/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2015-02-17 10:34:30 --> Controller Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Session Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: string_helper
+DEBUG - 2015-02-17 10:34:30 --> A session cookie was not found.
+DEBUG - 2015-02-17 10:34:30 --> Session routines successfully run
+DEBUG - 2015-02-17 10:34:30 --> Email Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: url_helper
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: email_helper
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: language_helper
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: recaptchalib_helper
+DEBUG - 2015-02-17 10:34:30 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2015-02-17 10:34:30 --> Config file loaded: application/config/aauth.php
+DEBUG - 2015-02-17 10:34:30 --> Config Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Hooks Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Utf8 Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> UTF-8 Support Enabled
+DEBUG - 2015-02-17 10:34:30 --> URI Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Router Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Output Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Security Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Input Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-17 10:34:30 --> Language Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Loader Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Config file loaded: application/config/asset.php
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: asset_helper
+DEBUG - 2015-02-17 10:34:30 --> Database Driver Class Initialized
+ERROR - 2015-02-17 10:34:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/phpframe/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2015-02-17 10:34:30 --> Controller Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Session Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: string_helper
+DEBUG - 2015-02-17 10:34:30 --> Session routines successfully run
+DEBUG - 2015-02-17 10:34:30 --> Email Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: url_helper
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: email_helper
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: language_helper
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: recaptchalib_helper
+DEBUG - 2015-02-17 10:34:30 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2015-02-17 10:34:30 --> Config file loaded: application/config/aauth.php
+DEBUG - 2015-02-17 10:34:30 --> Helper loaded: form_helper
+DEBUG - 2015-02-17 10:34:30 --> Form Validation Class Initialized
+DEBUG - 2015-02-17 10:34:30 --> File loaded: application/views/templates/header.php
+DEBUG - 2015-02-17 10:34:30 --> File loaded: application/views/forms/login_start.php
+DEBUG - 2015-02-17 10:34:30 --> File loaded: application/views/templates/footer.php
+DEBUG - 2015-02-17 10:34:30 --> Final output sent to browser
+DEBUG - 2015-02-17 10:34:30 --> Total execution time: 0.0128
+DEBUG - 2015-02-17 10:34:33 --> Config Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Hooks Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Utf8 Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> UTF-8 Support Enabled
+DEBUG - 2015-02-17 10:34:33 --> URI Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Router Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Output Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Security Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Input Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-17 10:34:33 --> Language Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Loader Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Config file loaded: application/config/asset.php
+DEBUG - 2015-02-17 10:34:33 --> Helper loaded: asset_helper
+DEBUG - 2015-02-17 10:34:33 --> Database Driver Class Initialized
+ERROR - 2015-02-17 10:34:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/phpframe/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2015-02-17 10:34:33 --> Controller Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Session Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Helper loaded: string_helper
+DEBUG - 2015-02-17 10:34:33 --> Session routines successfully run
+DEBUG - 2015-02-17 10:34:33 --> Email Class Initialized
+DEBUG - 2015-02-17 10:34:33 --> Helper loaded: url_helper
+DEBUG - 2015-02-17 10:34:33 --> Helper loaded: email_helper
+DEBUG - 2015-02-17 10:34:33 --> Helper loaded: language_helper
+DEBUG - 2015-02-17 10:34:33 --> Helper loaded: recaptchalib_helper
+DEBUG - 2015-02-17 10:34:33 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2015-02-17 10:34:33 --> Config file loaded: application/config/aauth.php
+DEBUG - 2015-02-17 10:34:33 --> Helper loaded: form_helper
+DEBUG - 2015-02-17 10:34:33 --> Form Validation Class Initialized
+DEBUG - 2015-02-17 10:34:34 --> XSS Filtering completed
+DEBUG - 2015-02-17 10:34:34 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-02-17 10:34:34 --> File loaded: application/views/templates/header.php
+DEBUG - 2015-02-17 10:34:34 --> File loaded: application/views/forms/login_success.php
+DEBUG - 2015-02-17 10:34:34 --> File loaded: application/views/templates/footer.php
+DEBUG - 2015-02-17 10:34:34 --> Final output sent to browser
+DEBUG - 2015-02-17 10:34:34 --> Total execution time: 0.6296
+DEBUG - 2015-02-17 10:34:35 --> Config Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Hooks Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Utf8 Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> UTF-8 Support Enabled
+DEBUG - 2015-02-17 10:34:35 --> URI Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Router Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Output Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Security Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Input Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-02-17 10:34:35 --> Language Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Loader Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Config file loaded: application/config/asset.php
+DEBUG - 2015-02-17 10:34:35 --> Helper loaded: asset_helper
+DEBUG - 2015-02-17 10:34:35 --> Database Driver Class Initialized
+ERROR - 2015-02-17 10:34:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/phpframe/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2015-02-17 10:34:35 --> Controller Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Session Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Helper loaded: string_helper
+DEBUG - 2015-02-17 10:34:35 --> Session routines successfully run
+DEBUG - 2015-02-17 10:34:35 --> Email Class Initialized
+DEBUG - 2015-02-17 10:34:35 --> Helper loaded: url_helper
+DEBUG - 2015-02-17 10:34:35 --> Helper loaded: email_helper
+DEBUG - 2015-02-17 10:34:35 --> Helper loaded: language_helper
+DEBUG - 2015-02-17 10:34:35 --> Helper loaded: recaptchalib_helper
+DEBUG - 2015-02-17 10:34:35 --> Language file loaded: language/english/aauth_lang.php
+DEBUG - 2015-02-17 10:34:35 --> Config file loaded: application/config/aauth.php
+DEBUG - 2015-02-17 10:34:35 --> File loaded: application/views/templates/header.php
+DEBUG - 2015-02-17 10:34:35 --> File loaded: application/views/info/index.php
+DEBUG - 2015-02-17 10:34:35 --> File loaded: application/views/templates/footer.php
+DEBUG - 2015-02-17 10:34:35 --> Final output sent to browser
+DEBUG - 2015-02-17 10:34:35 --> Total execution time: 0.0570
