@@ -40,7 +40,7 @@
 
 
 
-      if ($this->form_validation->run() == FALSE)
+      if ($this->form_validation->run() == FALSE || $login == FALSE)
       {
         if($login == FALSE) {
           $data['error'] = 'You pass invalid email or password! Try one more time!';
