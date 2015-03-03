@@ -17,6 +17,9 @@
         $data['users_counter'] = count($data['users_list']);
 
         $this->load->view('templates/header', $data);
+        if ( $this->aauth->is_member('admin') ) {
+          $this->load->view('info/_admin_part', $data);
+        }
         $this->load->view('info/index', $data);
         $this->load->view('templates/footer');
       } else {
