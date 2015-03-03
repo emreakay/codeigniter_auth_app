@@ -1,2 +1,2 @@
 # Ignore log files
-/application/logs/*.log
+/application/logs/*.php

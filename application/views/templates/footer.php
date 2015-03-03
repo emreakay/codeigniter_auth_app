@@ -7,5 +7,10 @@
   <?=jquery('1.11.2')?>
   <?=js('bootstrap.min.js')?>
   <?=js('docs.min.js')?>
+  <script>
+    $(document).ready(function() {
+      $('.progress').css('top', $(document).height());
+    });
+  </script>
   </body>
 </html>

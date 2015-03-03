@@ -62,6 +62,31 @@
       $this->load->view('templates/footer', $data);
     }
 
+    public function update($id) {
+      $this->load->helper(array('form', 'url'));
+      $this->load->library('form_validation');
+      $data['user'] = $this->aauth->get_user($id);
+      $data['login'] = TRUE;
+      $data['title'] = 'Edit';
+      $data['form_attributes'] = array( 'class' => 'form-horizontal' );
+
+      $this->form_validation->set_rules('email', 'Email', 'required');
+      $this->form_validation->set_rules('name', 'Name', 'required');
+
+      $email = $this->input->post('email');
+      $name = $this->input->post('name');
+
+
+      if ($this->form_validation->run() == FALSE)
+      {
+        $this->load->view('templates/header', $data);
+        $this->load->view('forms/edit_user', $data);
+      } else {
+        $this->aauth->update_user($id, $email, FALSE, $name);
+        redirect('/info', 'refresh');
+      }
+    }
+
     public function signin() {
 
       $this->load->helper(array('form', 'url'));
@@ -82,7 +107,6 @@
 
       if ($this->form_validation->run() == FALSE)
       {
-
         $data['login'] = FALSE;
         $this->load->view('templates/header', $data);
         $this->load->view('forms/signin_start');
@@ -97,6 +121,34 @@
       }
 
       $this->load->view('templates/footer', $data);
+    }
+
+    public function change_user_group($id) {
+      if ($this->aauth->is_loggedin() && $this->aauth->get_user()->id != $id){
+        if($this->aauth->is_member('admin', $id)) {
+          $this->aauth->remove_member($id, 'admin');
+          $this->aauth->add_member($id, 'default');
+        } else {
+          $this->aauth->remove_member($id, 'default');
+          $this->aauth->add_member($id, 'admin');
+        }
+        redirect('/info', 'refresh');
+      } else {
+        redirect('/info', 'refresh');
+      }
+
+    }
+
+    public function delete($id) {
+      if ($this->aauth->is_loggedin()) {
+        if($this->aauth->get_user()->id != $id && $this->aauth->is_member('admin')) {
+          $this->aauth->delete_user($id);
+        }
+        redirect('/info', 'refresh');
+      } else {
+        $data['login'] = FALSE;
+        redirect('/login', 'refresh');
+      }
     }
 
   }
